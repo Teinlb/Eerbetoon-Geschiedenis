@@ -1,0 +1,111 @@
+body{
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    height:justify;
+}
+
+
+
+
+/*Header*/
+nav{
+    background-color: rgb(23, 52, 85);
+    font-family:"Mulish";
+    font-size:large;
+    font-style:italic;
+    color:rgb(255, 255, 255);
+    border-radius:30px;
+    padding:10px;
+    position:fixed;
+    top:6px;
+    width:100%;
+}
+
+a{
+    text-decoration:none;
+    font-family:"Mulish";
+    font-size:large;
+    font-style:italic;
+    color:rgb(255, 255, 255)
+}
+
+.active{
+    color: rgb(184, 175, 175);
+}
+
+
+
+/*Main*/
+main{
+    margin-top:80px;
+    margin-bottom:80px;
+    background-color: rgb(223, 212, 212);
+    border-radius:50px;
+}
+
+.titel{
+    color:rgb(0, 0, 0);
+    font-family:"Mulish", serif;
+    font-style:oblique;
+    padding-top:25px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+    border-radius:20px;
+    border-width:7px;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+}
+
+p{
+    font-family:"Mulish", "Lora", serif;
+    font-size:24px;
+    margin:35px 80px;
+    padding:10px 15px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius:20px;
+    border-width:7px;
+    border-style:solid;
+    border-color: rgb(199, 195, 195);
+}
+
+.bronnen{
+    
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom:40px;
+
+
+}
+
+.b{
+    font-family:"Mulish", "Lora", serif;
+    font-size:20px;
+    padding:10px 15px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius:20px;
+    border-width:7px;
+    border-style:solid;
+    border-color: rgb(199, 195, 195); 
+    text-align:left;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: rgb(23, 52, 85);
+    font-family:"Mulish";
+    font-size:large;
+    color:rgb(255, 255, 255);
+    border-radius:30px;
+    padding:10px;
+    position:fixed;
+    bottom:6px;
+    width:100%;
+}
